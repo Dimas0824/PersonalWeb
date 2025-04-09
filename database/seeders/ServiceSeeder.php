@@ -10,22 +10,22 @@ class ServiceSeeder extends Seeder
     public function run()
     {
         Service::create([
-            'name' => 'Digital Marketing',
+            'name' => 'Database Management',
             'order' => 1,
         ]);
 
         Service::create([
-            'name' => 'Website Development',
+            'name' => 'Backend Development',
             'order' => 2,
         ]);
 
         Service::create([
-            'name' => 'UI/UX Design',
+            'name' => 'Web Development',
             'order' => 3,
         ]);
 
         Service::create([
-            'name' => 'Email Marketing',
+            'name' => 'System Information',
             'order' => 4,
         ]);
     }
