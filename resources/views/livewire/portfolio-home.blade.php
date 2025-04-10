@@ -16,9 +16,11 @@
                 <a href="#services" class="nav-item text-gray-500">Services</a>
                 <a href="#contact" class="nav-item text-gray-500">Contact</a>
             </div>
-            <div>
+            <div class="flex space-x-4">
                 <a href="https://wa.me/{{ str_replace('+', '', $personalInfo->whatsapp_number) }}" target="_blank"
                     class="bg-blue-600 text-white px-6 py-2 rounded-full font-medium">Contact me</a>
+                <a href="{{ route('filament.admin.pages.dashboard') }}"
+                    class="bg-gray-700 text-white px-6 py-2 rounded-full font-medium">Admin Panel</a>
             </div>
         </div>
     </div>
@@ -188,6 +190,10 @@
                     <a href="#contact"
                         class="bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition">Get
                         In Touch</a>
+                    <a href="{{ route('filament.admin.pages.dashboard') }}"
+                        class="bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition">
+                        Admin Panel
+                    </a>
                 </div>
             </div>
         </div>
